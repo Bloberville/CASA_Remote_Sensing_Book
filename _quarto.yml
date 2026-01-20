@@ -4,8 +4,8 @@ project:
 
 book:
   title: "Portfolio"
-  author: "Norah Jones"
-  date: today
+  author: "Matt Koller"
+  date: 20/01/2026
   chapters:
     - index.qmd
     - intro.qmd
