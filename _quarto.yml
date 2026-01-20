@@ -5,7 +5,7 @@ project:
 book:
   title: "Portfolio"
   author: "Matt Koller"
-  date: 20/01/2026
+  date: today
   chapters:
     - index.qmd
     - intro.qmd
