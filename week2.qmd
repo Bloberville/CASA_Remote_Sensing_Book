@@ -3,13 +3,16 @@ title: "week2"
 format: html
 ---
 
+\
 \## CASA Remote Sensing Portfolio\
 \
+::: {.content-visible when-format="html"}\
+\
 \<iframe\
-src="https://bloberville.github.io/CASA23_Remote_Sensing/#1"\
+src="https://bloberville.github.io/CASA23_Remote_Sensing/"\
 width="100%"\
 height="900"\
 style="border:none;"\>\
 \</iframe\>\
 \
-\[Open the portfolio in a new tab\](https://bloberville.github.io/CASA23_Remote_Sensing/#1)
+:::
