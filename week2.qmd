@@ -6,7 +6,7 @@ format: html
 \
 \## CASA Remote Sensing Portfolio\
 \
-::: {.content-visible when-format="html"}\
+::: {=html}\
 \
 \<iframe\
 src="https://bloberville.github.io/CASA23_Remote_Sensing/"\
