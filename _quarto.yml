@@ -6,18 +6,29 @@ book:
   title: "Portfolio"
   author: "Matt Koller"
   date: last-modified
-  chapters:
-    - index.qmd
-    - week1.qmd
-    - week2.qmd
-    - week3.qmd
-    - week4-5.qmd
-    - week6.qmd
-    - week7.qmd
-    - week8.qmd
-    - week9.qmd
-    - week10.qmd
-    - references.qmd
+chapters:
+  - text: "Home"
+    file: index.qmd
+  - text: "Week 1 – An Introduction to Remote Sensing"
+    file: week1.qmd
+  - text: "Week 2 – Portfolio Tools: Xaringan and Quarto"
+    file: week2.qmd
+  - text: "Week 3 – Remote Sensing Data"
+    file: week3.qmd
+  - text: "Week 4 & 5 – Policy Applications / Temperature and Policy"
+    file: week4-5.qmd
+  - text: "Week 6 – An Introduction to Google Earth Engine"
+    file: week6.qmd
+  - text: "Week 7 – Classification"
+    file: week7.qmd
+  - text: "Week 8 – Classification: The Big Questions and Accuracy"
+    file: week8.qmd
+  - text: "Week 9 – SAR in Google Earth Engine"
+    file: week9.qmd
+  - text: "Week 10 – Group Presentations"
+    file: week10.qmd
+  - text: "References"
+    file: references.qmd
 
 bibliography: references.bib
 
