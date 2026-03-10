@@ -5,29 +5,28 @@ format: html
 
 ## Weekly Learning Diary
 
-::: {.callout-note}
+::: callout-note
 ## Summary
 
-The material introduces remote sensing as the acquisition of information about Earth from a distance—primarily via satellite or aerial sensors—which captures electromagnetic radiation reflected or emitted from the surface. The module’s first lecture covers housekeeping (structure, expectations, assessment, pre-requisites and tools like R, GitHub/GEE) and frames the overall aims: enabling students to work with Earth observation (EO) data for environmental and urban analysis and decision-making. 
+The material introduces remote sensing as the acquisition of information about Earth from a distance—primarily via satellite or aerial sensors—which captures electromagnetic radiation reflected or emitted from the surface. The module’s first lecture covers housekeeping (structure, expectations, assessment, pre-requisites and tools like R, GitHub/GEE) and frames the overall aims: enabling students to work with Earth observation (EO) data for environmental and urban analysis and decision-making.
 
-The practical Getting Started with Remote Sensing goes into hands-on data exploration. Students source and compare the characteristics of Sentinel and Landsat imagery, undertake basic raster statistics/processing, and evaluate spectral signatures. Concepts of active vs passive sensors, electromagnetic waves, orbits, and data resolutions (spectral, spatial, temporal, radiometric) are covered to underpin how EO data behave and why choices matter. 
-
+The practical Getting Started with Remote Sensing goes into hands-on data exploration. Students source and compare the characteristics of Sentinel and Landsat imagery, undertake basic raster statistics/processing, and evaluate spectral signatures. Concepts of active vs passive sensors, electromagnetic waves, orbits, and data resolutions (spectral, spatial, temporal, radiometric) are covered to underpin how EO data behave and why choices matter.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 ## Applications
 
 The content lays a solid foundation in both theory and technical skills. By blending conceptual understanding (e.g., physics of EM waves and sensor types) with practical tasks (e.g., loading images in R/SNAP/GEE), it positions students to grapple with real spatial data, not just static maps. A strength is this dual focus: learning why remote sensing behaves as it does, and how to actually manipulate data. However, the pace and breadth of tools (R, QGIS, Earth Engine) may be demanding, especially for beginners.
 
 Questions/limitations emerging include:
 
-•	How are uncertainties and errors (e.g. atmospheric interference) dealt with in real workflows? (An important caveat in EO analysis.) andrewmaclachlan.github.io
+• How are uncertainties and errors (e.g. atmospheric interference) dealt with in real workflows? (An important caveat in EO analysis.) andrewmaclachlan.github.io
 
-•	Does the module emphasize real validation practices (e.g., ground truth, spatial cross-validation)? (This is crucial to avoid overfitting models to spatially autocorrelated data.)
-
+• Does the module emphasize real validation practices (e.g., ground truth, spatial cross-validation)? (This is crucial to avoid overfitting models to spatially autocorrelated data.)
 :::
 
-::: {.callout-important}
+::: callout-important
 ## Reflection
 
 Personally, the course design feels relevant and modern: I appreciate the emphasis on reproducibility (R, GitHub) and large-scale data platforms (Google Earth Engine). It reflects broader shifts in spatial science toward open data, reproducible research, and cloud computing. Gorgeously, it connects foundational remote sensing physics with practical environmental and policy problems—making it more than a technical exercise.
+:::
