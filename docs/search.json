@@ -6,7 +6,7 @@
     "section": "",
     "text": "Introduction\nThis is a Quarto book made by Matt.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
     "crumbs": [
-      "Introduction"
+      "Home"
     ]
   },
   {
@@ -46,7 +46,7 @@
     "section": "",
     "text": "1.1 Weekly Learning Diary",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Started with remote sensing</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1 – An Introduction to Remote Sensing</span>"
     ]
   },
   {
@@ -54,9 +54,19 @@
     "href": "week1.html#weekly-learning-diary",
     "title": "1  Getting Started with remote sensing",
     "section": "",
-    "text": "Summary\n\n\n\nThe material introduces remote sensing as the acquisition of information about Earth from a distance—primarily via satellite or aerial sensors—which captures electromagnetic radiation reflected or emitted from the surface. The module’s first lecture covers housekeeping (structure, expectations, assessment, pre-requisites and tools like R, GitHub/GEE) and frames the overall aims: enabling students to work with Earth observation (EO) data for environmental and urban analysis and decision-making.\nThe practical Getting Started with Remote Sensing goes into hands-on data exploration. Students source and compare the characteristics of Sentinel and Landsat imagery, undertake basic raster statistics/processing, and evaluate spectral signatures. Concepts of active vs passive sensors, electromagnetic waves, orbits, and data resolutions (spectral, spatial, temporal, radiometric) are covered to underpin how EO data behave and why choices matter.\n\n\n\n\n\n\n\n\nApplications\n\n\n\nThe content lays a solid foundation in both theory and technical skills. By blending conceptual understanding (e.g., physics of EM waves and sensor types) with practical tasks (e.g., loading images in R/SNAP/GEE), it positions students to grapple with real spatial data, not just static maps. A strength is this dual focus: learning why remote sensing behaves as it does, and how to actually manipulate data. However, the pace and breadth of tools (R, QGIS, Earth Engine) may be demanding, especially for beginners.\nQuestions/limitations emerging include:\n• How are uncertainties and errors (e.g. atmospheric interference) dealt with in real workflows? (An important caveat in EO analysis.) andrewmaclachlan.github.io\n• Does the module emphasize real validation practices (e.g., ground truth, spatial cross-validation)? (This is crucial to avoid overfitting models to spatially autocorrelated data.)\n\n\n\n\n\n\n\n\nReflection\n\n\n\nPersonally, the course design feels relevant and modern: I appreciate the emphasis on reproducibility (R, GitHub) and large-scale data platforms (Google Earth Engine). It reflects broader shifts in spatial science toward open data, reproducible research, and cloud computing. Gorgeously, it connects foundational remote sensing physics with practical environmental and policy problems—making it more than a technical exercise.",
+    "text": "Summary\n\n\n\nThis week provided an introduction to remote sensing as a concept, focusing on how the Earth can be observed without direct contact. The lecture explored how sensors can be mounted on different platforms, including satellites, aircraft, and drones, and introduced the distinction between passive and active sensing. Passive sensors rely on naturally occurring radiation such as sunlight, while active sensors emit their own signal; however, both approaches have limitations, including dependency on environmental conditions for passive systems and increased complexity and cost for active systems.\nA key focus was on electromagnetic radiation and how it interacts with the Earth’s surface, producing distinct spectral signatures that allow different materials to be identified. This was supported by discussion of atmospheric processes such as scattering, as well as practical challenges including cloud cover and varying spatial, temporal, and spectral resolutions. Together, these concepts highlighted both the potential of remote sensing for large-scale observation and the constraints that affect data quality and interpretation.\nThe practical aimed to apply these principles through working with Landsat and Sentinel imagery. This included sourcing and comparing datasets, undertaking basic raster processing and statistics, evaluating the advantages and disadvantages of different software, and analysing spectral signatures. Initially, getting to grips with Copernicus was challenging due to the number of options and the process of identifying and downloading suitable data, which was also slow. I then found SNAP difficult to use, particularly when loading and processing the data, which limited my ability to fully complete the workflow. However, using R to explore spectral signatures helped reinforce how remotely sensed data can be analysed quantitatively rather than purely visually.\nHowever, several limitations were evident. Remote sensing is highly dependent on data availability and quality, with cloud cover, atmospheric effects, and resolution all impacting reliability. In addition, the complexity of accessing and processing data, as well as the usability of tools such as SNAP, can present barriers to effective use. These challenges highlight the importance of both data considerations and technical capability when applying remote sensing in real-world contexts.\n\n\n\n\n\n\n\n\nApplications\n\n\n\nThe content lays a solid foundation in both theory and technical skills. By blending conceptual understanding (e.g., physics of EM waves and sensor types) with practical tasks (e.g., loading images in R/SNAP/GEE), it positions students to grapple with real spatial data, not just static maps. A strength is this dual focus: learning why remote sensing behaves as it does, and how to actually manipulate data. However, the pace and breadth of tools (R, QGIS, Earth Engine) may be demanding, especially for beginners.\nQuestions/limitations emerging include:\n• How are uncertainties and errors (e.g. atmospheric interference) dealt with in real workflows? (An important caveat in EO analysis.) andrewmaclachlan.github.io\n• Does the module emphasize real validation practices (e.g., ground truth, spatial cross-validation)? (This is crucial to avoid overfitting models to spatially autocorrelated data.)\n\n\n\n\n\n\n\n\nReflection\n\n\n\nPersonally, the course design feels relevant and modern: I appreciate the emphasis on reproducibility (R, GitHub) and large-scale data platforms (Google Earth Engine). It reflects broader shifts in spatial science toward open data, reproducible research, and cloud computing. Gorgeously, it connects foundational remote sensing physics with practical environmental and policy problems—making it more than a technical exercise.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Started with remote sensing</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1 – An Introduction to Remote Sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "2  week2",
+    "section": "",
+    "text": "## CASA Remote Sensing Portfolio\n\n::: {=html}\n\n&lt;iframe\nsrc=“https://bloberville.github.io/CASA23_Remote_Sensing/”\nwidth=“100%”\nheight=“900”\nstyle=“border:none;”&gt;\n&lt;/iframe&gt;\n\n:::",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 – Portfolio Tools: Xaringan and Quarto</span>"
     ]
   }
 ]
