@@ -20,13 +20,9 @@ However, several limitations were evident. Remote sensing is highly dependent on
 ::: callout-tip
 ## Applications
 
-The content lays a solid foundation in both theory and technical skills. By blending conceptual understanding (e.g., physics of EM waves and sensor types) with practical tasks (e.g., loading images in R/SNAP/GEE), it positions students to grapple with real spatial data, not just static maps. A strength is this dual focus: learning why remote sensing behaves as it does, and how to actually manipulate data. However, the pace and breadth of tools (R, QGIS, Earth Engine) may be demanding, especially for beginners.
+Remote sensing plays a key role in environmental and urban monitoring by allowing large areas to be observed consistently over time. One of its most common applications is land use and land cover classification, where spectral signatures are used to distinguish between materials such as vegetation, water, and built-up areas. For example, satellite imagery from platforms such as Landsat has been widely used to map urban expansion and monitor land use change over time, as demonstrated in long-term satellite analyses (e.g. [Wulder et al. (2018](https://www.sciencedirect.com/science/article/pii/S0034425719300707)[)](https://www.sciencedirect.com/science/article/pii/S0034425718302352)). This ability to consistently observe change supports decision-making in areas such as urban planning and environmental management.
 
-Questions/limitations emerging include:
-
-• How are uncertainties and errors (e.g. atmospheric interference) dealt with in real workflows? (An important caveat in EO analysis.) andrewmaclachlan.github.io
-
-• Does the module emphasize real validation practices (e.g., ground truth, spatial cross-validation)? (This is crucial to avoid overfitting models to spatially autocorrelated data.)
+These techniques are also applied in environmental monitoring, where differences in spectral response can indicate changes in vegetation health or water quality. Vegetation indices derived from satellite imagery, such as NDVI, have been widely used to assess ecosystem condition and detect environmental change (e.g. [Pettorelli et al. (2005)](https://www.sciencedirect.com/science/article/pii/S016953470500162X)). In practice, similar principles are also applied using other remote sensing data sources such as LiDAR. For example, in a planning enforcement context, I have used LiDAR data to measure changes in surface height in order to provide evidence of unauthorised development. This highlights how remotely sensed data can be applied in regulatory and decision-making processes. However, the effectiveness of these applications is influenced by factors such as atmospheric interference, cloud cover, and the spatial and temporal resolution of the data. This highlights the importance of selecting appropriate data sources and understanding their limitations when applying remote sensing in real-world contexts.
 :::
 
 ::: callout-important
