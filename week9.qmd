@@ -1,5 +1,36 @@
 ---
-title: "week9"
+title: "template"
 format: html
 ---
 
+## Weekly Learning Diary
+
+::: callout-note
+## Summary
+
+Briefly summarise the key ideas from this week’s lecture or material.
+
+Include: - Main concepts or methods introduced - Important datasets, tools, or techniques - Questions that arose while learning - Potential limitations or benefits of the approaches discussed
+
+Remember: this should not simply restate the lecture but demonstrate understanding and critical thinking.
+:::
+
+::: callout-tip
+## Applications
+
+Discuss how the concepts, data, or methods have been used elsewhere.
+
+Possible angles: - Examples from academic literature - Applications in policy or government - Real-world case studies - How other studies have implemented similar approaches
+
+Include references where relevant.
+:::
+
+::: callout-important
+## Reflection
+
+Your personal reflection on the material.
+
+Consider: - What did you learn this week? - What did you find interesting or surprising? - What aspects were difficult or unclear? - How might this knowledge influence your own work or research? - What would you like to explore further?
+:::
+
+:::

@@ -1,5 +1,46 @@
 ---
-title: "week8"
+title: "template"
 format: html
 ---
 
+## Weekly Learning Diary
+
+::: callout-note
+## Summary
+
+Building directly on Week 7, this week focused on evaluating the outputs of classification rather than generating them. While the previous week introduced methods for assigning pixels to classes, this week explored how to assess the accuracy and reliability of those classifications, highlighting that producing a map is only one part of the process, and that understanding its limitations is equally important.
+
+A key concept introduced was the use of confusion matrices to compare classified outputs against reference data, allowing for the calculation of metrics such as overall accuracy, producer’s accuracy, and user’s accuracy. These measures provide insight into different types of error, such as omission and commission, and help to identify where classifications may be performing poorly. This reinforced that accuracy is not a single value, but something that needs to be interpreted carefully depending on the intended application.
+
+The practical component involved applying these concepts to assess classification outputs, including generating accuracy metrics and interpreting the results. This highlighted how even classifications that appear visually correct can contain significant errors when tested against reference data, emphasising the importance of validation as a critical step in the workflow.
+
+However, several limitations were evident. Accuracy assessment relies heavily on the quality and representativeness of reference data, which can be difficult to obtain, particularly in complex urban environments. Additionally, there is often a trade-off between classification detail and accuracy, where increasing the number of classes can lead to greater uncertainty. These challenges demonstrate that classification outputs should not be treated as definitive, but rather as informed interpretations that require careful validation and contextual understanding.
+:::
+
+::: callout-tip
+## Applications
+
+The evaluation of classification accuracy is critical in ensuring that remote sensing outputs can be used reliably in real-world decision-making. In many applications, classification results are used to inform policy, planning, and environmental management, meaning that errors within the data can have direct consequences. Accuracy assessment therefore plays a key role in determining whether outputs are suitable for their intended use, rather than assuming that all classifications are equally reliable.
+
+One important application of accuracy assessment is in environmental monitoring, where classification outputs are used to track changes in land cover over time. In these contexts, inaccuracies can lead to misinterpretation of trends, such as overestimating vegetation loss or failing to detect important environmental changes. Studies have shown that classification uncertainty can significantly influence the conclusions drawn from remotely sensed data, particularly when used for long-term monitoring and policy support (e.g. [Olofsson et al. (2014)](https://doi.org/10.1016/j.rse.2014.02.015)).
+
+Accuracy assessment is also essential when classification outputs are used within operational or planning contexts. For example, when classifications are integrated into GIS systems or used to support spatial analysis, errors can propagate through workflows and affect subsequent analysis or modelling. This is particularly important in urban environments, where small misclassifications can have disproportionate impacts due to the density and complexity of land use. As a result, understanding and communicating uncertainty becomes as important as the classification itself, ensuring that decision-makers are aware of the limitations of the data they are using.
+
+Ultimately, accuracy assessment enables classification outputs to move from being purely analytical products to tools that can be trusted and applied in practice. By quantifying uncertainty and identifying sources of error, it supports more informed and responsible use of remote sensing data across a range of applications.
+:::
+
+::: callout-important
+## Reflection
+
+This week shifted my perspective from producing classification outputs to questioning how much they can actually be trusted. While it is relatively straightforward to generate a classification map, assessing its accuracy introduced a level of uncertainty that is easy to overlook. The use of confusion matrices and accuracy metrics made it clear that even outputs that appear visually correct can contain significant errors, reinforcing the importance of validation before any real-world use.
+
+What I found particularly interesting was how different types of accuracy reveal different issues within the data. For example, understanding the difference between omission and commission errors highlighted that some classes may consistently be over- or under-represented, depending on how the model has been trained. This made me realise that accuracy is not just about achieving a high overall percentage, but about understanding where and why errors occur, and whether those errors matter for the intended application.
+
+From a professional perspective, this has clear implications for how remotely sensed data could be used within a local authority setting such as Brent. If classification outputs were to be used to support planning, environmental monitoring, or policy development, it would be essential to understand their limitations before integrating them into decision-making processes. There is a risk that outputs could be taken at face value, particularly by non-technical stakeholders, which could lead to misinformed decisions if accuracy is not properly communicated.
+
+This also highlighted the importance of how results are presented and explained. It is not enough to produce technically accurate outputs; there is a responsibility to clearly communicate uncertainty and limitations in a way that is accessible to others. In a council environment, where outputs may be used across different teams, this becomes even more important to ensure that data is used appropriately and responsibly.
+
+Overall, this week reinforced that accuracy assessment is not just a technical step, but a critical part of ensuring that remote sensing outputs are fit for purpose. As I continue developing my skills in this area, I will need to focus not only on producing outputs, but on understanding their reliability and communicating that effectively within a real-world context.
+:::
+
+:::
