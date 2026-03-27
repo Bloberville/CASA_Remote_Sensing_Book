@@ -25,12 +25,6 @@ book:
       file: week8.qmd
     - text: "Week 9 – SAR in Google Earth Engine"
       file: week9.qmd
-    - text: "Week 10 – Group Presentations"
-      file: week10.qmd
-    - text: "References"
-      file: references.qmd
-
-bibliography: references.bib
 
 format:
   html:

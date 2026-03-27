@@ -1,5 +1,5 @@
 ---
-title: "template"
+title: "Xaringan and Quarto"
 format: html
 ---
 
@@ -40,6 +40,10 @@ From a professional perspective, these tools have clear relevance. In a local au
 
 Overall, this week reinforced that strong analytical work is not just about producing results, but about how those results are communicated and maintained over time. Developing these skills will be important in ensuring that technical outputs can be effectively used in real-world contexts.
 :::
+
+**Xaringan Presentation**\
+\
+As part of this week’s work, I created a short Xaringan presentation focusing on the Sentinel-2, exploring its purpose, sensors, and applications in remote
 
 ```{r echo=FALSE}
 xaringanExtra::embed_xaringan(

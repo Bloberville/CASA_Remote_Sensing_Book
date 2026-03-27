@@ -2,6 +2,14 @@
 
 This is a Quarto book made by Matt.
 
+I currently work in a GIS-focused role within local government at Brent Council, where much of my work centres around address data, UPRNs, and improving data quality across systems. This has given me practical experience in managing spatial data, working with tools such as QGIS, PostGIS, GeoServer, and FME, and understanding how geospatial data feeds into real-world decision making and service delivery.
+
+My background is more applied than theoretical, with a strong focus on solving operational problems rather than developing analytical methods from first principles. Because of this, I am particularly interested in how remote sensing and earth observation data can be integrated into existing workflows, rather than treated as standalone academic outputs.
+
+Through this module, I am hoping to develop a better understanding of how earth observation data can be used in a practical and scalable way within local government. In particular, I am interested in how these data sources could support areas such as environmental monitoring, infrastructure planning, and risk management, and how they could be incorporated into existing data pipelines.
+
+I am also keen to improve how I communicate technical work, particularly through tools like Quarto and Xaringan, as presenting complex information clearly is a key part of my role. Overall, I am looking to bridge the gap between academic approaches to remote sensing and the constraints and realities of working within a public sector environment such as Brent.
+
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 ```         
